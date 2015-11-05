@@ -32,7 +32,7 @@ div.clear {
 }
 
 section.page_bg {
-	background-color: rgba(55,55,55,.6);
+	background-color: rgba(55,55,55,1);
 }
 
 section.before_image {
@@ -231,7 +231,7 @@ div.masthead p {
 div.home-callout {
 	padding-top: 5em;
 	padding-bottom: 5em;
-	background-color: rgba(55,55,55,.6);
+	background-color: rgba(55,55,55,1);
 
 }
 	@media only screen and (max-width: 40em) { 

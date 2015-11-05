@@ -154,3 +154,35 @@
 		color: #000;
 	}
 
+
+/* 404 page */
+
+	div.error-404 {
+		padding: 2em 0 2.75em 0;
+		text-align: center;
+	}
+	div.error-404 h1 {
+		font-weight: 100;
+		font-size: 5em;
+		color: #D4C96A;
+	}
+		@media only screen and (max-width: 40em) { 
+			div.error-404 h1 {
+				font-size: 4.25em;
+			}	
+		}
+	div.error-404 p {
+		margin-bottom: .25em;
+	}
+	div.error-404 i.fi-arrow-down {
+		font-size: 3em;
+		display: block;
+		padding-top: .1em;
+		color: #D4C96A;
+	}
+
+
+
+
+
+
