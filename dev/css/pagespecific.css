@@ -1,0 +1,362 @@
+/* Page specific CSS stuff */
+
+
+
+/* Index page fixing heights so image loading doesn't look so bad */
+
+	/* 300 / 640 = 0,46875 */
+	/* 600 / 640 = 0,9375 */
+	
+	.project-big-image,
+	.project-image {
+		position:  absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.project-big-image-container,
+	.project-image-container {
+		position: relative;
+		width: 100%;
+	}
+	
+	.project-image-container:before,
+	.project-big-image-container:before {
+		content: "";
+		display: block;
+		padding-top: 46.875%;
+	}
+	
+	@media only screen and (min-width: 40.063em) {
+		.project-big-image-container:before {
+			padding-top: 93.75%;
+		}
+	}
+
+
+		
+
+/* Portfolio piece page fixing heights so image loading doesn't look so bad */
+
+	.portfolio-image {
+		position:  absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.portfolio-image-container {
+		position: relative;
+		width: 100%;
+	}
+	
+	.portfolio-image-container:before {
+		content: "";
+		display: block;
+		/* padding-top: ; */
+	}
+	
+	@media only screen and (min-width: 40.063em) {
+		.project-big-image-container:before {
+			/* padding-top: ; */
+		}
+	}
+
+	/* Tradera Selling Experience */
+	/* 375 / 640 = 0,5859375 */
+	/* 600 / 1024 = 0,5859375 */
+
+		#portfolio-image-tradera-selling-experience:before {
+			padding-top: 58.59%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-tradera-selling-experience:before {
+				padding-top: 58.59%;
+			}
+		}
+	
+	/* My Tradera */
+	/* 600 / 640 = 0,9375 */
+	/* 600 / 1024 = 0,5859375 */
+
+		#portfolio-image-my-tradera:before {
+			padding-top: 93.75%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-my-tradera:before {
+				padding-top: 58.59%;
+			}
+		}
+	
+	/* Tradera Buyer Protection - - - - - - V2 */
+	/* 600 / 640 = 0,9375 */
+	/* 1024 / 375 = 0,36621094 */
+
+		#portfolio-image-tradera-buyer-protection:before {
+			padding-top: 93.75%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-tradera-buyer-protection:before {
+				padding-top: 36.62%;
+			}
+		}
+
+	/* eBay Star Wars */
+	/* 375 / 640 = 0,5859375 */
+	/* 600 / 1024 = 0,5859375 */
+
+		#portfolio-image-ebay-star-wars:before {
+			padding-top: 58.59%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-ebay-star-wars:before {
+				padding-top: 58.59%;
+			}
+		}
+
+	/* eBay global design grid - - - - - - V3 */
+	/* 600 / 640 = 0,9375 */
+	/* 600 / 1024 = 0,5859375 */
+
+		#portfolio-image-ebay-global-grid:before {
+			padding-top: 93.75%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-ebay-global-grid:before {
+				padding-top: 58.59%;
+			}
+		}
+
+	/* eBay design-ebay-com - - - - - - V4 */
+	/* 773 / 640 = 1.20625 */
+	/* 1235 / 1024 = 1.20605469 */
+
+		#portfolio-image-ebay-design-ebay-com:before {
+			padding-top: 120.625%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-ebay-design-ebay-com:before {
+				padding-top: 120.625%;
+			}
+		}
+
+	/* Turbotax Snaptax - - - - - - V5 */
+	/* 685 / 640 = 1.0703125 */
+	/* 750 / 1024 = 0.73242188 */
+
+		#portfolio-image-turbotax-snaptax:before {
+			padding-top: 107.03%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-turbotax-snaptax:before {
+				padding-top: 73.24%;
+			}
+		}
+
+	/* Turbotax Windows - - - - - - V6 */
+	/* 490 / 640 = 0.765625 */
+	/* 750 / 1024 = 0.73242188 */
+
+		#portfolio-image-turbotax-windows:before {
+			padding-top: 76.56%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-turbotax-windows:before {
+				padding-top: 73.24%;
+			}
+		}
+
+	/* Turbotax build system - - - - - - V7 */
+	/* 600 / 640 = 0,9375 */
+	/* 650 / 1024 = 0,63476563 */
+	
+		#portfolio-image-turbotax-build-system:before {
+			padding-top: 93.75%;
+		}
+		
+		@media only screen and (min-width: 40.063em) {
+			#portfolio-image-turbotax-build-system:before {
+				padding-top: 63.47%;
+			}
+		}
+
+
+
+/* Tradera selling experience */
+
+	/* Header colors */
+	body#david-snow-design-index div#tradera-selling-experience,
+	body#tradera-selling-experience section div.portfolio-header {
+		background-color: #FBCE3B;
+	}
+	body#david-snow-design-index div#tradera-selling-experience div h4,
+	body#tradera-selling-experience section div.portfolio-header h4 {
+		color: #000;
+	}
+	
+
+
+/* Tradera My Tradera */
+
+	/* Header colors */
+	body#david-snow-design-index div#tradera-my-tradera,
+	body#tradera-my-tradera section div.portfolio-header {
+		background-color: #9C958D;
+	}
+	body#david-snow-design-index div#tradera-my-tradera div h4 {
+		color: #fff;
+	}
+	body#tradera-my-tradera section div.portfolio-header h4 {
+		color: #3f4a54;
+	}
+
+
+
+/* Tradera Buyer Protection */
+
+	/* Header colors */
+	body#david-snow-design-index div#tradera-buyer-protection,
+	body#tradera-buyer-protection section div.portfolio-header {
+		background-color: #fff;
+	}
+	body#david-snow-design-index div#tradera-buyer-protection div h4,
+	body#tradera-buyer-protection section div.portfolio-header h4 {
+		color: #429B66;
+		}
+
+
+
+/* Ebay Star Wars */
+
+	/* Header colors */
+	body#david-snow-design-index div#ebay-star-wars,
+	body#ebay-star-wars section div.portfolio-header {
+		background-color: #000;
+	}
+	body#david-snow-design-index div#ebay-star-wars div h4,
+	body#ebay-star-wars section div.portfolio-header h4 {
+		color: #fff6f6;
+	}
+
+
+
+/* Ebay Design */
+
+	/* Header colors */
+	body#david-snow-design-index div#ebay-design-ebay-com,
+	body#ebay-design-ebay-com section div.portfolio-header {
+		background-color: #050405;
+	}
+	body#david-snow-design-index div#ebay-design-ebay-com div h4,
+	body#ebay-design-ebay-com section div.portfolio-header h4 {
+		color: #9d9582;
+	}
+
+
+
+/* Ebay Grid */
+
+	/* Header colors */
+	body#david-snow-design-index div#ebay-global-grid,
+	body#ebay-global-grid section div.portfolio-header {
+		background-color: #73a8e2;
+	}
+	body#david-snow-design-index div#ebay-global-grid div h4,
+	body#ebay-global-grid section div.portfolio-header h4 {
+		color: #fff;
+	}
+
+
+
+/* Turbotax Windows */
+
+	/* Header colors */
+	body#david-snow-design-index div#turbotax-windows,
+	body#turbotax-windows section div.portfolio-header {
+		background-color: #315a8a;
+	}
+	body#david-snow-design-index div#turbotax-windows div h4 {
+		color: #fff;
+	}
+	body#turbotax-windows section div.portfolio-header h4 {
+		color: #fff;
+	}
+
+
+
+/* Turbotax Snaptax */
+
+	/* Header colors */
+	body#david-snow-design-index div#turbotax-snaptax,
+	body#turbotax-snaptax section div.portfolio-header {
+		background-color: #e6ecf2;
+	}
+	body#david-snow-design-index div#turbotax-snaptax div h4,
+	body#turbotax-snaptax section div.portfolio-header h4 {
+		color: #999;
+	}
+
+
+
+/* Turbotax Build */
+
+	/* Header colors */
+	body#david-snow-design-index div#turbotax-build-system,
+	body#turbotax-build-system section div.portfolio-header {
+		background-color: #b3a9a0;
+	}
+	body#david-snow-design-index div#turbotax-build-system div h4,
+	body#turbotax-build-system section div.portfolio-header h4 {
+		color: #000;
+	}
+
+
+/* Footer special effects */
+
+	/* Turn off link colors in the footer for a given page */
+	body#david-snow-design-index section.navbar a#nav-home,
+	body#david-snow-design-contact section.navbar a#nav-contact,
+	body#tradera-selling-experience section.footer a#footer-tradera-selling-experience,
+	body#tradera-my-tradera section.footer a#footer-tradera-my-tradera,
+	body#tradera-buyer-protection section.footer a#footer-tradera-buyer-protection,
+	body#ebay-star-wars section.footer a#footer-ebay-star-wars,
+	body#ebay-design-ebay-com section.footer a#footer-ebay-design-ebay-com,
+	body#ebay-global-grid section.footer a#footer-ebay-global-grid,
+	body#turbotax-windows section.footer a#footer-turbotax-windows,
+	body#turbotax-snaptax section.footer a#footer-turbotax-snaptax,
+	body#turbotax-build-system section.footer a#footer-turbotax-build-system {
+		color: #777;
+		cursor: default;
+		-moz-transition: none;
+		-webkit-transition: none;
+		-o-transition: color 0 ease-in;
+		transition: none;
+	}
+	
+	/* Put the little location marker next to a footer link for a given page */
+	body#tradera-selling-experience section.footer a#footer-tradera-selling-experience i,
+	body#tradera-my-tradera section.footer a#footer-tradera-my-tradera i,
+	body#tradera-buyer-protection section.footer a#footer-tradera-buyer-protection i,
+	body#ebay-star-wars section.footer a#footer-ebay-star-wars i,
+	body#ebay-design-ebay-com section.footer a#footer-ebay-design-ebay-com i,
+	body#ebay-global-grid section.footer a#footer-ebay-global-grid i,
+	body#turbotax-windows section.footer a#footer-turbotax-windows i,
+	body#turbotax-snaptax section.footer a#footer-turbotax-snaptax i,
+	body#turbotax-build-system section.footer a#footer-turbotax-build-system i {
+		position: absolute;
+		left: -.75em;
+		display: block;
+		color: #555;
+		margin-top: .01em;
+	}	
