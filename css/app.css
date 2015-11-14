@@ -2,9 +2,6 @@
 
 
 /* Troubleshooting */
-
-
-
 /*
 section {
 	border: 1px solid #fff;
@@ -105,6 +102,7 @@ section.navbar {
 	margin: .5em;
 	margin-top: 1em;
 	margin-bottom: 1.25em;
+	position: relative;
 }
 section.navbar div.navbar div.home-nav {
 	text-align: left;
@@ -153,6 +151,7 @@ section.navbar div.navbar div.home-nav a:active,
 section.navbar div.navbar div.global-nav a:active {
 	color: #ffee00;
 }
+
 
 
 /* Name */
@@ -222,7 +221,6 @@ div.masthead p {
 			margin: 0;
 		}	
 	}
-
 
 
 
@@ -307,7 +305,6 @@ div.project div.description h4 {
 
 
 
-
 /* Home page stuff */
 section.portfolio div.project div.description h4 {
 	font-size: .7em;
@@ -379,7 +376,6 @@ div.inset-image img {
 			margin-top: 2em;
 		}	
 	}
-
 
 
 
@@ -497,6 +493,7 @@ div.pullquote p {
 	}
 
 
+
 /* Results */
 section.results {
 	padding-top: 0;
@@ -555,6 +552,8 @@ ul.footer-links li a:hover {
 ul.footer-links li a:active {
 	color: #ffee00;
 }
+
+
 
 /* Footer 'here' icon */
 i.iconhere {
@@ -638,6 +637,11 @@ i.icon48 {
 
 
 
+/* No JS alert */
+div.alert-box {
+	margin: .3em .3em 0 .3em;
+	padding: .3em;
+}
 
 
 
