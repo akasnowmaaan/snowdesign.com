@@ -1,3 +1,4 @@
+# General Apple file system
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -22,3 +23,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Directories inside my site
+fun/**
