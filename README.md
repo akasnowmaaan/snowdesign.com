@@ -8,8 +8,9 @@ This is my design portfolio website
 
 Details
 - Written with iA Writer
-- Built using Zurb Fondation and Foundation Icons
+- Built using Zurb Foundation and Foundation Icons
 - Coded with Panic Coda
+- Managed with GitHub (and the Mac desktop app for it)
 - Images generated from Photoshop, Sketch, Marvel, Balsamiq Mockups, and Keynote 
 - Images optimized using ImageOptim
 - Browser QA assisted by Browsershots.org
