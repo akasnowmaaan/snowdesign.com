@@ -1,11 +1,26 @@
-User-agent: Jeeves
-Disallow: /
-User-agent: msnbot
-Disallow: /
-User-agent: psbot
-Disallow: /
-User-agent: *
-Disallow: /fun, /calcoast, /certona, /lamp_fs
+UUser-agent: *
+Disallow: /ftp, /pdf
 Disallow: /*.zip$
 Disallow: /*.Zip$
 Disallow: /*.ZIP$
+
+ser-agent: Jeeves
+Disallow: /
+
+User-agent: msnbot
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: GPTBot 
+Disallow: / 
+
+User-agent: ClaudeBot 
+Disallow: / 
+
+User-agent: Google-Extended 
+Disallow: / 
+
+User-agent: CCBot 
+Disallow: / 
