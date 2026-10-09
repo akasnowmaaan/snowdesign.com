@@ -12,6 +12,9 @@ section {
 }
 */
 
+.test-outline {
+	border: 1px solid #fff;
+}
 
 
 /* Global stuff */
@@ -22,6 +25,7 @@ body {
 	background-repeat: repeat;
 	background-position: 5px 5px;
 	background-attachment: fixed;
+	margin: 0 1.5em 0 1.5em;
 }
 
 div.clear {
@@ -115,10 +119,13 @@ section.navbar div.navbar div.home-nav ul {
 	padding-left: .3em;
 	margin-bottom: 0em;
 }
-section.navbar div.navbar div.global-nav ul {
+section.navbar div.navbar div.home-nav ul {
 	list-style-type: none;
-	padding-right: .3em;
+	padding-left: .3em;
 	margin-bottom: 0em;
+}
+section.navbar div.navbar div.home-nav h1 {
+	text-align: left;
 }
 section.navbar div.navbar div.home-nav ul li {
 	float: left;
@@ -158,19 +165,15 @@ section.navbar div.navbar div.global-nav a:active {
 h1.navbar {
 	position: absolute;
 	top: 0em;
-	font-size: 1.75em;
-	text-align: center;
+	font-size: 1.7em;
 	font-weight: 700;
-	margin-left: 50%;
-	width: 170px;
-	left: -85px;
 	z-index: 10;
 }
 	@media only screen and (max-width: 64.063em) { 
 		h1.navbar {
-			font-size: 1.5em;
+			font-size: 1.4em;
 			top: .15em;
-		}	
+		}
 	}
 
 
@@ -189,30 +192,30 @@ section.content {
 	
 	
 
-/* Intro blurb on home page */
+/* Masthead on home page */
 
 div.masthead {
 	margin-top: 0em;
 	margin-bottom: 4em;
 }
-div.masthead h1 {
+/* div.masthead h1 {
 	font-weight: 700;
 	margin: 0;
 	margin-top: 0em;
 	padding: 0;
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: .75em;
 }
 	@media only screen and (max-width: 40em) { 
 		div.masthead h1 {
 			font-size: 2em;
 		}	
-	}
+	} */
 	
 div.masthead p {
-	font-size: 1.4em;
-	font-weight: 200;
-	margin: 0;
+	font-size: 2.4em;
+	font-weight: 300;
+	margin: 0 2em 0 2em;
 	padding: 0;
 }
 	@media only screen and (max-width: 40em) { 
@@ -224,7 +227,7 @@ div.masthead p {
 
 
 
-/* Intro blurb on home page */
+/* Callout text blocks on home page */
 
 div.home-callout {
 	padding-top: 5em;
@@ -373,12 +376,12 @@ div.full-width {
 
 
 /* Inset image */
-div.inset-image img {
+div.inset-image img/ {
 	padding-left: 1em;
 	padding-right: 1em;
 }
 	@media only screen and (max-width: 40em) { 
-		div.inset-image img {
+		div.inset-image img/ {
 			margin-top: 2em;
 		}	
 	}
