@@ -1,0 +1,11 @@
+User-agent: Jeeves
+Disallow: /
+User-agent: msnbot
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Disallow: /fun, /calcoast, /certona, /lamp_fs
+Disallow: /*.zip$
+Disallow: /*.Zip$
+Disallow: /*.ZIP$
